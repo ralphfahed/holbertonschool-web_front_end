@@ -1,3 +1,4 @@
+/* Then when you click that same link, it will scroll gradually and smoothly to the target section, like a slow slide*/
 html {
   scroll-behavior: smooth;
 }
