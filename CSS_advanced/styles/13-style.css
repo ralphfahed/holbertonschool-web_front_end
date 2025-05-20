@@ -75,23 +75,19 @@ html {
   font-size: 62.5%;
 }
 
-/* Target anchor elements that contain a hyperlink (i.e., have an href attribute) */
-a[href] {
-  /* Add your base styles for linked anchors here if needed */
-}
 
 /* Target visited state of hyperlinks */
-a[href]:visited {
+a:visited {
   font-style: italic;
 }
 
 /* Target hover state of hyperlinks */
-a[href]:hover {
+a:hover {
   text-decoration: underline;
 }
 
 /* Target active state of hyperlinks */
-a[href]:active {
+a:active {
   background-color: var(--color-light-grey);
 }
 
