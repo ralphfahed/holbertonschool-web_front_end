@@ -3,10 +3,6 @@
 /* Document
    ========================================================================== */
 
-* {
-  box-sizing: border-box;
-}
-
 /**
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
@@ -405,10 +401,9 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: var(--font-weight-bold);
 }
 
-* {
-  box-sizing: border-box;
+*, *::before, *::after {
+  box-sizing: inherit;
 }
-
 html {
   font-size: 62.5%;
 }
