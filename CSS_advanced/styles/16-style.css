@@ -385,17 +385,17 @@ a:active {
   color: var(--section-title-color);
 }
 
-.container {
-  width: 960px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .section-tagline {
   color: var(--color-primary);
   font-family: var(--font-family-title);
   font-weight: var(--font-weight-bold);
   text-transform: var(--section-tagline-transform);
+}
+
+.container {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .card-category {
