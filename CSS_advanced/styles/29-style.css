@@ -198,11 +198,11 @@ template {
   --nav-item-letter-spacing: 0.04rem;
   --nav-item-display: inline-block;
   --nav-item-margin: 0 0 3rem 0;
-  --nav-item-link-hover: var(--color-primary);
+  --nav-item-link-hover: var(--color-white);
 
   --section-tagline-margin: 0;
 
-    --button-display: inline-block;
+  --button-display: inline-block;
   --button-padding: 1.5rem 3rem;
   --button-border: 0.2rem solid var(--color-primary);
   --button-color: var(--color-black);
@@ -219,10 +219,7 @@ template {
   --header-logo-link-top: -1rem;
   --header-logo-link-left: 0;
 
-   --nav-item-link-hover: var(--color-white);
-
 }
-
 
 body {
   color: var(--text-color);
@@ -304,7 +301,6 @@ nav .nav-item:hover .nav-link::before {
   background-color: var(--color-primary);
   width: 100%;
 }
-
 
 .header {
   padding: var(--header-padding);
