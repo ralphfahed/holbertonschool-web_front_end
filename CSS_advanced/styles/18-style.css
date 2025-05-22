@@ -192,12 +192,13 @@ template {
   --section-footer-align: center;
   --footer-padding: 5rem 0 1rem;
 
+  /* Nav items custom properties - correctly defined according to requirements */
   --nav-item-font-family: var(--font-family-title);
   --nav-item-font-weight: var(--font-weight-bold);
   --nav-item-font-size: var(--font-size-medium);
-  --nav-item-letter-spacing: 0.4rem;
+  --nav-item-letter-spacing: 0.04rem; /* 4% of root element */
   --nav-item-display: inline-block;
-  --nav-item-margin: 0 0 3rem 0;
+  --nav-item-margin: 0 0 3rem 0; /* 3 times root element on bottom, 0 elsewhere */
   --nav-item-link-hover: var(--color-primary);
 }
 
@@ -223,14 +224,15 @@ a:active {
   background-color: var(--color-light-grey);
 }
 
+/* Nav styling according to requirements */
 nav {
   margin: 0;
   padding: 0;
-  list-style: none;
+  list-style: none; /* List styling set to none */
   text-align: center;
 }
 .navbar-menu {
-  float: right;
+  float: right; /* Floating to the right as required */
 }
 nav .nav-item {
   font-family: var(--nav-item-font-family);
@@ -242,7 +244,7 @@ nav .nav-item {
 }
 nav .nav-link {
   display: block;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 1rem; /* Half of root element (top/bottom), equal to root element (left/right) */
 }
 nav .nav-link:hover {
   color: var(--nav-item-link-hover);
@@ -282,3 +284,21 @@ nav .nav-link:hover {
   padding: 0 2rem;
 }
 
+/* Additional styling for the demo */
+header {
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--color-light-grey);
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+footer {
+  margin-top: 2rem;
+  padding: 1rem 0;
+  border-top: 1px solid var(--color-light-grey);
+  text-align: center;
+}
