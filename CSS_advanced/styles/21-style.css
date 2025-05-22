@@ -316,6 +316,8 @@ ul.row {
   list-style: none;
 }
 
+/* Select all classes starting with 'col-' */
+
 [class^="col-"] {
   float: left;
   padding: calc(var(--font-size-medium) / 2);
