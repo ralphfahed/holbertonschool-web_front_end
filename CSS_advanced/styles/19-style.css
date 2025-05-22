@@ -321,4 +321,18 @@ ul.row {
   float: left;
   padding: calc(var(--font-size-medium) / 2);
 }
+.col-1-2 {
+  width: 50%;
+  float: left;
+  padding: calc(var(--font-size-medium) / 2);
+}
+
+.footer-copyright {
+  margin: 0;
+  font-size: var(--font-size-small);
+  color: var(--text-color);
+}
+footer ul {
+  text-align: right;
+}
 
